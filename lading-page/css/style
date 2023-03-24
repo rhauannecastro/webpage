@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Raleway:ital,wght@100;300;400&display=swap');
+
+/* corpo de texto */
+body{
+    margin: 0 auto;
+    padding: 2px;
+    font-family:  'Poppins', sans-serif;;
+    background-color: #000000;
+    color: #F6F1F1;
+    max-width: 1200px;
+}
+/* cabeçalho */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e5e6;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+/* menu */
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #F6F1F1;
+}
+
+a:hover{
+    color: #146C94;
+    transition: 0.3s all;
+}
+/* efeito especial */
+#faca-parte-button{
+    border: 2px solid #146C94;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#faca-parte-button:hover{
+    background-color: #146C94;
+    color: #F6F1F1;
+}
+
+/* titulos */
+/* T1 */
+h1{
+    font-weight: 400px;
+}
+/* imagem */
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+/* T2 */
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+span{
+    color: #146C94;
+}
+/* texto */
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+/* imagem */
+img{
+    width: 500px;
+    margin-left: 150px;
+}
+
+/* formulario */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+/* botão */
+form [type= "submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #146C94;
+    color: #F6F1F1;
+    font-weight: bold;
+    
+}
+form [type= "submit"]:hover{
+    cursor: pointer;
+    
+}
+
+input{
+    margin-top: 15px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    
+}

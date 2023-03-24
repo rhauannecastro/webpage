@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contatos">
+    <link rel="stylesheet" href="/css/responsive">
+    <title>Contatos</title>
+</head>
+<body>
+     <!-- Cabeçalho -->
+     <header>
+        <div id="title">
+            <h1>Design</h1>
+            <h1>Gráfico</h1>
+        </div>
+
+        <ul>
+            <a href="./home"><li>Home</li></a>
+        
+            <a href="./quemsomos"><li>Quem somos?</li></a>
+        
+            <a href="./contatos"id="home-button"><li>Contatos</li></a>
+        
+            <a href="./index"><li>Faça parte</li></a>
+        </ul>
+    </header>
+
+    <!--Conteudo-->
+    <main>
+        <!-- indentação "aside" -->
+        <aside>
+        <h2> <span>Entre</span></h2>
+        <h2>em contato:</h2>
+        
+    <p> E-mail: Rhauannecastro1@gmail.com</p>
+    <p>Telefone:(11)6748-0976</p>
+    Instagram:<a href="https://www.instagram.com/rhauannecastro/">rhauannecastro</a>
+</aside>
+<!-- imagem -->
+    <article>
+        <img src="/imagem/Mobile Marketing-bro.png"imagem desing">
+    </article>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/quemsomos">
+    <link rel="stylesheet" href="/css/responsive">
+    <title>Quem Somos?</title>
+</head>
+<body>
+     <!-- Cabeçalho -->
+     <header>
+        <div id="title">
+            <h1>Design</h1>
+            <h1>Gráfico</h1>
+        </div>
+
+        <ul>
+            <a href="./home"><li>Home</li></a>
+        
+            <a href="./quemsomos"id="home-button"><li>Quem somos?</li></a>
+        
+            <a href="./contatos"><li>Contatos</li></a>
+        
+            <a href="./index"><li>Faça parte</li></a>
+        </ul>
+    </header>
+
+    <!--Conteudo-->
+    <main>
+        <!-- indentação "aside" -->
+        <aside>
+        <h2> <span>Sobre</span></h2>
+        <h2>nós</h2>
+        
+    <p>&nbsp In vestibulum aliquet tortor, at suscipit erat.
+    Nam et rutrum turpis, nec gravida lectus. Aenean sollicitudin nisl sed lacus laoreet, vitae lobortis nisi pulvinar
+    Etiam rhoncus non ligula et fermentum. Integer tempus, nisi ut dapibus sodales, diam purus tempor ex, nec sodales leo risus ac lacus
+    Duis molestie quis tellus ac ullamcorper. Sed et diam tortor Fusce suscipit tellus in nisi ornare, in dignissim risus tristique 
+    Praesent facilisis odio ut euismod sagittis. Donec dignissim ipsum vitae nunc scelerisque, sit amet condimentum purus pharetra.</p>
+</aside>
+<!-- imagem -->
+    <article>
+        <img src="/imagem/Solidarity-pana.png" alt="imagem desing">
+    </article>
+</body>
+</html>
